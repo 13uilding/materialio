@@ -1,0 +1,30 @@
+/* attribute selectors 
+[att=value]
+[att~=value]
+[att|=value]
+[att^=value]
+[att$=value]
+[att*=value]
+*/
+[class="container"] {
+    background-color: cornflowerblue;
+}
+
+/* fammily selectors 
+direct children >
+adjacent sibling +
+general sibling combinator ~
+*/
+section > h1~h2{
+    margin: 0 auto;
+}
+
+
+/* element */
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
